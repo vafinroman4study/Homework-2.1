@@ -1,8 +1,8 @@
 public class Ravenclaw extends Hogwarts {
-    int learning;           // ум
-    int intelligence;       // творчество
-    int wisdom;             // мудрость
-	int wit;                // остроумие
+    private int learning;           // ум
+    private int intelligence;       // творчество
+    private int wisdom;             // мудрость
+    private int wit;                // остроумие
 
     public Ravenclaw(String firstName, String lastName, int sorcery, int transgression, int learning, int intelligence, int wisdom, int wit) {
         super(firstName, lastName, sorcery, transgression);
